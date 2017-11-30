@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBC Test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="http://allfont.ru/allfont.css?fonts=open-sans" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <div class="page-container">
+      <div class="content">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" width="180" height="153"></a>
+        </div>
+
+        <form class="form" action="#">
+
+          <div class="field  form__field">
+            <label class="field__label" for="email">Ваш e-mail</label>
+            <input class="field__input" id="email" type="email" name="email" placeholder="Введите e-mail" required>
+          </div>
+
+          <div class="field__wrapper">
+            <div class="field  field--short">
+              <label class="field__label" for="password">Ваш пароль</label>
+              <input class="field__input" id="password" type="password" name="password" placeholder="Введите пароль" required>
+            </div>
+
+            <div class="field  field--short">
+              <label class="field__label" for="repeat-password">Повторите пароль</label>
+              <input class="field__input" id="repeat-password" type="password" name="password" placeholder="Повторите пароль" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="inn">ИНН / ОГРН компании</label>
+            <input class="field__input" id="inn" type="text" name="email" placeholder="ИНН / ОГРН компании" required>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="tel">Контактный телефон</label>
+            <input class="field__input" id="tel" type="tel" pattern="\d{5,11}" name="tel" placeholder="Контактный телефон" required>
+          </div >
+
+          <div class="field  field--with-tip">
+            <label class="field__label" for="helper-code">Код помощника <span>(если имеется)</span></label>
+            <input class="field__input" id="helper-code" type="text" name="helper-code" placeholder="Код помощника">
+            <div class="field__tip" title="Если у Вас есть агент, введите его 4-значный цифровой идентификатор">?</div>
+          </div>
+
+          <div class="btn-group">
+            <button type="submit" class="btn  btn--submit">Зарегистрироваться</button>
+            <button type="button" class="btn  btn--link">У меня есть логин</button>
+          </div>
+
+        </form>
+      </div>
+      
+      <div class="image-block">
+      </div>
+    </div>
+   
+  </body>
+</html>
+

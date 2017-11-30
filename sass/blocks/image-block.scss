@@ -1,0 +1,14 @@
+.image-block {
+  position: fixed;
+  right: 0;
+  width: 59%;
+  min-height: 100vh;
+  float: right;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  
+  @media (max-width: $bp-mobile) {
+    display: none;
+  }
+}
+

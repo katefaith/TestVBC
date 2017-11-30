@@ -1,0 +1,80 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.field__wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+  @media (max-width: $bp-desktop) {
+    flex-direction: column;
+  }
+}
+
+.field--short {
+  width: 49%;
+  
+  @media (max-width: $bp-desktop) {
+    width: 100%;
+  }
+}
+
+.field__label {
+  font-weight: 600;
+  margin-bottom: 12px;
+  
+  @media (max-width: $bp-tablet) {
+    font-size: 13px;
+  }
+  
+  &::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  
+}
+
+.field__input {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  
+  font-size: 14px;
+  
+  @media (max-width: $bp-tablet) {
+    font-size: 12px;
+  }
+}
+
+.field--with-tip {
+  position: relative;
+}
+
+.field__tip {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-right: 18px;
+  padding-left: 16px;
+  font-size: 14px;
+  border: 1px solid #d9d9d9;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #e9ecef;
+  
+  @media (max-width: $bp-tablet) {
+    font-size: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+.field--with-tip span {
+  font-size: 13px;
+}
