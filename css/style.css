@@ -510,7 +510,6 @@ body {
   font-weight: 300; }
 
 .page-container {
-  width: 1463px;
   min-height: 830px;
   margin: 0 auto; }
   .page-container:after, .page-container:before {
