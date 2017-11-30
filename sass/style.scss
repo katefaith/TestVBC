@@ -10,15 +10,15 @@
 @import "blocks/image-block.scss";
 
 body {
-  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.2;
 }
 
 .page-container {
   @include clearfix;
+  width: 1463px;
   min-height: 830px;
   margin: 0 auto;
 }

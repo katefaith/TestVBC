@@ -354,35 +354,17 @@ th {
   padding: 0; }
 
 @font-face {
-  font-family: "HelveticaNeueCyr Roman";
-  src: url("../fonts/HelveticaNeueCyr_Roman.otf") format("OpenType");
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans.ttf") format("TrueType");
   font-style: normal;
   font-weight: normal; }
-
-@font-face {
-  font-family: "HelveticaNeueCyr Light";
-  src: url("../fonts/HelveticaNeueCyr_Light.otf") format("OpenType");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  font-family: "HelveticaNeueCyr Medium";
-  src: url("../fonts/HelveticaNeueCyr_Medium.otf") format("OpenType");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  font-family: "HelveticaNeueCyr Bold";
-  src: url("../fonts/HelveticaNeueCyr_Bold.otf") format("OpenType");
-  font-style: normal;
-  font-weight: bold; }
 
 .logo {
   width: 180px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px; }
+  margin-bottom: 23px; }
   @media (max-width: 720px) {
     .logo {
       width: 120px; } }
@@ -398,7 +380,7 @@ th {
 .field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px; }
+  margin-bottom: 19px; }
 
 .field__wrapper {
   display: flex;
@@ -425,7 +407,7 @@ th {
 .field__input {
   padding-top: 12px;
   padding-bottom: 10px;
-  padding-left: 12px;
+  padding-left: 15px;
   border: 1px solid #d9d9d9;
   border-radius: 5px;
   font-size: 14px; }
@@ -441,7 +423,7 @@ th {
   position: absolute;
   bottom: 0;
   right: 0;
-  padding-top: 13px;
+  padding-top: 10px;
   padding-bottom: 12px;
   padding-right: 18px;
   padding-left: 16px;
@@ -503,7 +485,7 @@ th {
 
 .btn-group {
   display: flex;
-  margin-top: 40px;
+  margin-top: 42px;
   margin-bottom: 40px; }
   @media (max-width: 1340px) {
     .btn-group {
@@ -522,13 +504,13 @@ th {
       display: none; } }
 
 body {
-  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
-  font-weight: 300;
-  line-height: 1.2; }
+  font-weight: 300; }
 
 .page-container {
+  width: 1463px;
   min-height: 830px;
   margin: 0 auto; }
   .page-container:after, .page-container:before {

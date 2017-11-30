@@ -1,7 +1,7 @@
 .field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .field__wrapper {
@@ -38,7 +38,7 @@
 .field__input {
   padding-top: 12px;
   padding-bottom: 10px;
-  padding-left: 12px;
+  padding-left: 15px;
   border: 1px solid #d9d9d9;
   border-radius: 5px;
   
@@ -58,7 +58,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  padding-top: 13px;
+  padding-top: 10px;
   padding-bottom: 12px;
   padding-right: 18px;
   padding-left: 16px;
